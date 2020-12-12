@@ -1,5 +1,50 @@
 .dark-mode {
-  background-color: #171c28;
-  color: white;
-  transition: "0.1s";
+    background-color: #171c28;
+    color: white;
+}
+
+.main-layout {
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main-layout {
+        margin: 0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .main-layout {
+        margin: 0 2rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .main-layout {
+        margin: 0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .main-layout {
+        margin: 0 5rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .main-layout {
+        margin: 0 10rem;
+    }
+}
+
+/* Extra Extra large devices (large laptops and desktops, 2400 and up) */
+@media only screen and (min-width: 2400px) {
+    .main-layout {
+        margin: 0 15vw;
+    }
 }
