@@ -1,15 +1,15 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
-import { greeting, workExperiences } from "../../portfolio";
+import {greeting, workExperiences} from "../../portfolio";
 
 function Header() {
   const { isDark } = useContext(StyleContext);
   const exp = workExperiences.viewExperiences;
   return (
-    <Headroom>
+    <Headroom disableInlineStyles>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="" className="logo">
           <span className="grey-color"> &lt;</span>
@@ -34,16 +34,7 @@ function Header() {
             </li>
           )}
           <li>
-            <a href="#opensource">Open Source</a>
-          </li>
-          <li>
             <a href="#achievements">Achievements</a>
-          </li>
-          <li>
-            <a href="#blogs">Blogs</a>
-          </li>
-          <li>
-            <a href="#talks">Talks</a>
           </li>
           <li>
             <a href="#contact">Contact Me</a>
