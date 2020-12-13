@@ -6,21 +6,33 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .main-layout .headroom {
+    .main-layout {
+        padding: 0;
+    }
+
+    .headroom {
         padding: 0;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .main-layout .headroom {
+    .main-layout {
+        padding: 0 2rem;
+    }
+
+    .headroom {
         padding: 0 2rem;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .main-layout .headroom {
+    .main-layout {
+        padding: 0 5rem;
+    }
+
+    .headroom {
         padding: 0 5rem;
     }
 }
@@ -28,16 +40,20 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .main-layout{
-        padding: 0 10rem !important;
+        padding: 0 15rem !important;
     }
     .headroom {
-        padding: 0 10rem !important;
+        padding: 0 15rem !important;
     }
 }
 
 /* Extra Extra large devices (large laptops and desktops, 2400 and up) */
 @media only screen and (min-width: 2400px) {
-    .main-layout .headroom {
+    .main-layout {
+        padding: 0 15vw;
+    }
+
+    .headroom {
         padding: 0 15vw;
     }
 }

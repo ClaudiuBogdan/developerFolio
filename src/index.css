@@ -1,14 +1,15 @@
 @font-face {
-  font-family: 'Agustina Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Agustina Regular'), url('./assets/fonts/Agustina.woff') format('woff');
-  font-display: swap;
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url('./assets/fonts/Montserrat-Regular.ttf') format('woff');
+    font-display: swap;
 }
+
 @font-face {
-  font-family: 'Montserrat';
-  src: local('Montserrat'), url('./assets/fonts/Montserrat-Regular.ttf') format('woff');
-  font-display: swap;
+    font-family: 'Ruthie Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Ruthie Regular'), url('./assets/fonts/Ruthie-Regular.ttf') format('woff');
+    font-display: swap;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
