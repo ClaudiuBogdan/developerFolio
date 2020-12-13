@@ -6,95 +6,89 @@
 import emoji from "react-easy-emoji";
 
 const greeting = {
-  /* Your Summary And Greeting Section */
-  username: "Claudiu C. Bogdan",
-  title: "Hi all, I'm just a dev",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+    /* Your Summary And Greeting Section */
+    username: "Claudiu C. Bogdan",
+    title: "Hi all, I'm Claudiu C. Bogdan",
+    subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with TypeScript / Reactjs / Nodejs / Android SDK and some other cool libraries and frameworks."),
+    resumeLink: "https://claudiuconstantinbogdan.me/resume_claudiu_constantin_bogdan.pdf"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
-  // Instagram and Twitter are also supported in the links!
+    github: "https://github.com/ClaudiuBogdan",
+    linkedin: "https://www.linkedin.com/in/claudiuconstantinbogdan/",
+    gmail: "claudiu.engineer@gmail.com",
+    gitlab: "https://gitlab.com/claudiu.engineer",
+    facebook: "https://www.facebook.com/claudiuconstantin.bogdan",
+    // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
-  ],
+    title: "What I do",
+    subTitle: "FULL STACK DEVELOPER WHO WANTS TO SOLVE IMPORTANT PROBLEMS TROUGH THE POWER OF TECHNOLOGY",
+    skills: [
+        emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
+        emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+        emoji("⚡ Scalable distributed architecture for client and server-side software applications")
+    ],
 
-/* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+    /* Make Sure You include correct Font Awesome Classname to view your icon
+    https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ]
+    softwareSkills: [
+        {
+            skillName: "HTML-5",
+            fontAwesomeClassname: "fab fa-html5"
+        },
+        {
+            skillName: "CSS3",
+            fontAwesomeClassname: "fab fa-css3-alt"
+        },
+        {
+            skillName: "SASS",
+            fontAwesomeClassname: "fab fa-sass"
+        },
+        {
+            skillName: "JavaScript",
+            fontAwesomeClassname: "fab fa-js"
+        },
+        {
+            skillName: "ReactJs",
+            fontAwesomeClassname: "fab fa-react"
+        },
+        {
+            skillName: "NodeJs",
+            fontAwesomeClassname: "fab fa-node"
+        },
+        {
+            skillName: "Java",
+            fontAwesomeClassname: "fab fa-java"
+        },
+        {
+            skillName: "npm",
+            fontAwesomeClassname: "fab fa-npm"
+        },
+        {
+            skillName: "sql-database",
+            fontAwesomeClassname: "fas fa-database"
+        },
+        {
+            skillName: "digital ocean",
+            fontAwesomeClassname: "fab fa-digital-ocean"
+        },
+        {
+            skillName: "python",
+            fontAwesomeClassname: "fab fa-python"
+        },
+        {
+            skillName: "docker",
+            fontAwesomeClassname: "fab fa-docker"
+        }
+    ]
 };
 
 // Your education background
@@ -102,27 +96,32 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
-    {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ]
-    }
+      {
+          schoolName: "Universidad De Sevilla",
+          logo: require("./assets/images/uniSevillaLogo.jpg"),
+          subHeader: "Aerospace Engineering Degree",
+          duration: "September 2012 - April 2016 (not graduated)",
+          desc: "",
+          descBullets: [
+              "Applying analytical methods (engineering mathematics – algebra, differentiation, function, geometry, trigonometry, statistics)\n",
+              "Critical Thinking - Using logic and reasoning to identify the strengths and weaknesses of alternative solutions, conclusions or approaches to problems.\n",
+              "Understanding aeronautical sciences – stress, strain, static and dynamic systems, motion, force, electrical power and resistance, mass and weight\n",
+              "Working efficiently and effectively in an engineering environment\n",
+              "Using and communicating technical information\n"]
+      },
+      {
+          schoolName: "Udacity Nanodegree",
+          logo: require("./assets/images/udacityLogo.png"),
+          subHeader: "Associate Android Developer",
+          duration: "January 2017 - December 2017",
+          desc: "",
+          descBullets: [
+              "Writing tests to verify that the application's logic and user interface are performing as expected, and executing those tests using the developer tools.",
+              "Implementation of the visual and navigational components of an application's design.",
+              "Understanding of Android's top-level application components (Activity, Service, Broadcast Receiver, Content Provider) and the lifecycle associated with each one.",
+              "Determining appropriate use cases for local persisted data, and designing solutions to implement data storage using files, preferences, and databases.",
+              "Extending applications to integrate with interfaces outside the core application experience through notifications and app widgets."]
+      }
   ]
 }
 
@@ -131,18 +130,18 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
-    {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+      {
+          Stack: "Frontend",  //Insert stack or technology you have experience in
+          progressPercentage: "75%"  //Insert relative proficiency in percentage
+      },
+      {
+          Stack: "Backend",
+          progressPercentage: "90%"
+      },
+      {
+          Stack: "Software Architecture",
+          progressPercentage: "80%"
+      }
   ]
 };
 
@@ -152,31 +151,41 @@ const techStack = {
 const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
-    {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+      {
+          role: "Software Engineer",
+          company: "UniCredit Services",
+          companylogo: require("./assets/images/unicreditLogo.jpeg"),
+          date: "April 2019 – September 2019",
+          desc: "Developed and maintained scalable applications used in multiple EU countries to calculate the different metrics (AIRB, LGD, EAD, etc) used by UniCredit to offer its financial products (loans, mortgages, etc).",
+          descBullets: [
+              "Develop, test and debug financial models used in pricing web engine, known as Global Pricing Tool.",
+              "Develop automated tests with Selenium for Global Pricing Tool web interface",
+              "Maintain and develop the data layer with Teradata and Hazelcast",
+              "Develop and maintain Continuous Integration and Continuous Delivery using Jenkins, Docker, and Linux.",
+              "Technologies: Python, Scala, SBT, Selenium, Docker, Jenkins, Linux, Teradata, Hazelcast.",
+          ]
+      },
+      {
+          role: "Chief Technology Officer ",
+          company: "Mind Treat Studios",
+          companylogo: require("./assets/images/mtsLogo.png"),
+          date: "July 2018 – May 2020",
+          desc: "I have developed most of the studio creative projects, from mobile application, games, web applications, up to electronic circuits and projection mapping. I've also conducted the technical interview for software developers.",
+          descBullets: [
+              "Developing, refactoring and debugging Android applications implementing Android Architecture Components and Dagger.",
+              "Designing application architecture/design patterns: MVC, MVVM",
+              "Developing Virtual Reality game with Unity and Vuforia",
+              "Developing web games with Phaser 3 engine and JavaScript.",
+              "Programming embedded systems (Arduino) to control lights, solenoid valves.",
+          ]
+      },
+      {
+          role: "Senior Software Engineer",
+          company: "Persidius Systems",
+          companylogo: require("./assets/images/persidiusLogo.jpg"),
+          date: "May 2020 – January 2021",
+          desc: ""
+      },
   ]
 };
 
@@ -292,10 +301,10 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+    title: emoji("Contact Me ☎️"),
+    subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+    // number: "+92-3243454077",
+    email_address: "claudiu.engineer@gmail.com"
 };
 
 //Twitter Section
