@@ -28,9 +28,8 @@
   flex-direction: row;
 }
 
-.project-text-school {
+.project-text-header {
   margin: 0;
-  padding-bottom: 4px;
   font-size: 28px;
   font-weight: 700;
   text-overflow: ellipsis;

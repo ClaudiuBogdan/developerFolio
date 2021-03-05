@@ -1,5 +1,4 @@
-﻿
-/* Change this file to get your personal Portfolio */
+﻿/*Change this file to get your personal Portfolio */
 
 // Your Summary And Greeting Section
 
@@ -9,7 +8,7 @@ const greeting = {
     /* Your Summary And Greeting Section */
     username: "Claudiu C. Bogdan",
     title: "Hi all, I'm Claudiu C. Bogdan",
-    subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with TypeScript / Reactjs / Nodejs / Android SDK and some other cool libraries and frameworks."),
+    subTitle: emoji("A passionate Software Developer 🚀 with experience in building Web and Mobile applications with TypeScript / Reactjs / Nodejs / Android SDK and some other cool libraries and frameworks."),
     resumeLink: "https://claudiuconstantinbogdan.me/resume_claudiu_constantin_bogdan.pdf"
 };
 
@@ -184,12 +183,23 @@ const workExperiences = {
           company: "Persidius Systems",
           companylogo: require("./assets/images/persidiusLogo.jpg"),
           date: "May 2020 – January 2021",
-          desc: ""
+          desc: "As part of the core development team, I contributed to the system architecture, design, planning, and implementation. I have also been involved in DevOps to deploy and scale different services in Kubernetes cluster",
+          descBullets: [
+              "Build a logistic map with Google Maps API with real - time data visualization",
+              "Implement GraphQL / Apollo Client queries and mutations",
+              "Use React Functional Components and React hooks",
+              "Implemented WebSockets with GrapQL subscriptions for real - time position tracking",
+              "Generate statistical data for different use cases",
+              "Develop a document life - cycle management for digital tax declaration",
+              "Implement bi - temporal data structure for effective and assertive data timelines",
+              "Optimize search functionality with ElasticSearch",
+              "DevOps with Kubernetes cluster",
+          ]
       },
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
+/*Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
 const openSource = {
@@ -205,99 +215,215 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
-    }
+      {
+          image: require("./assets/images/saayaHealthLogo.webp"),
+          link: "http://saayahealth.com/"
+      },
+      {
+          image: require("./assets/images/nextuLogo.webp"),
+          link: "http://nextu.se/"
+      }
   ]
+};
+
+const projects = {
+    title: "Projects",
+    subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+    projects: [
+        {
+            name: "EOS Server/Front-End",
+            logo: require("./assets/images/persidiusLogo.jpg"),
+            link: 'https://app.myara.ro/',
+            subHeader: "Persidius Systems",
+            duration: "May 2020 - January 2021",
+            desc: "",
+            descBullets: [
+                "Build a logistic map with Google Maps API with real-time data visualization ",
+                "Implement GraphQL/Apollo Client queries and mutations ",
+                "Use React Functional Components and React hooks",
+                "Develop statistics chart for data visualization ",
+                "Implemented WebSockets with GrapQL subscriptions for real-time position tracking",
+                "Use i18next library for internationalization ",
+                "Implement GraphQL Server",
+                "Implement WebSockets events with GrapQL subscription ",
+                "Generate statistical data for different use cases ",
+                "Develop a document life-cycle management for tax declaration ",
+                "Implement bi-temporal data structure for effective and assertive data timelines ",
+                "Optimize search functionality with ElasticSearch ",
+                "DevOps with Kubernetes cluster",
+            ]
+        },
+        {
+            name: "Global Pricing Tool",
+            logo: require("./assets/images/unicreditLogo.jpeg"),
+            link: 'https://www.gtb.unicredit.eu/global-transaction-banking/products-solutions/europeangate',
+            subHeader: "Unicredit",
+            duration: "April 2019 - September 2019",
+            desc: "",
+            descBullets: [
+                "Develop, test, and debug financial models used in pricing web engine, known as Global Pricing Tool.",
+                "Develop automated tests with Selenium for Global Pricing Tool web interface.",
+                "Maintain and develop the data layer with Teradata and Hazelcast.",
+                "Develop and maintain Continuous Integration and Continuous Delivery using Jenkins, Docker, and Linux.",
+                "Technologies: Python, Scala, SBT, Selenium, Docker, Jenkins, Linux, Teradata, Hazelcast.",
+            ]
+        },
+        {
+            name: "PortalDent",
+            logo: require("./assets/images/mtsLogo.png"),
+            link: 'https://portaldent.ro/',
+            subHeader: "Dr Leahu",
+            duration: "January 2020 - April 2020",
+            desc: "",
+            descBullets: [
+                "Video media streaming with HLS (HTML Live Streaming)",
+                "Multiplatform Application with Ionic/Angular and Capacitor",
+                "Responsive design",
+                "Display Encrypted PDF Documents (difficult to access source document)",
+                "Manage online courses and their content",
+                "Manage course access with ABAC and RBAC",
+                "Media streaming and video encoding",
+                "Course access with ABAC and RBAC",
+                "REST API for courses and accounts management.",
+            ]
+        },
+        {
+            name: "Carrefour Aniversary 20",
+            logo: require("./assets/images/mtsLogo.png"),
+            link: 'https://www.iqads.ro/articol/47023/carrefour-romania-si-mind-treat-studios-stabilesc-recordul-pentru-cea-mai-mare',
+            subHeader: "Carrefour",
+            duration: "May 2019 - July 2019",
+            desc: "",
+            descBullets: [
+                "Voucher management system",
+                "Single Player and Multiplayer sessions",
+                "Clock sync between different players",
+                "Voucher wallet",
+                "2D Game with Phaser3",
+                "Voucher QR scan",
+                "Voucher management ",
+                "Login based on the phone number and SMS code",
+                "Algorithm for voucher distribution based on daily hour and available vouchers",
+                "Rooms for multiplayer games",
+                "Import API for vouchers and sync with retail",
+                "Scalable system with 10.000 concurrent connections",
+            ]
+        },
+        {
+            name: "Yummy Galaxy",
+            logo: require("./assets/images/mtsLogo.png"),
+            link: 'https://yummy.asdl.ro/',
+            subHeader: "Dr Leahu",
+            duration: "November 2019 - April 2020",
+            desc: "",
+            descBullets: [
+                "2D Game Mechanic with physics engine",
+                "Multiplatform game with Capacitor and Angular ",
+                "In-app purchase",
+                "Social login with Facebook",
+                "Advanced game animations",
+            ]
+        },
+        {
+            name: "AccessTaxi",
+            logo: require("./assets/images/mtsLogo.png"),
+            link: 'https://www.facebook.com/ACCES-TAXI-1161232880652888',
+            subHeader: "TransContinental",
+            duration: "July 2018 - December 2018",
+            desc: "",
+            descBullets: [
+                "Reduced the number of bugs by 90%",
+                "Refactored application architecture to implement MVVM with Android Architecture",
+                "Improve overall performance by more than 50%",
+                "Implemented pixel-perfect design.",
+                "Implemented Dagger2 and RxJava.",
+            ]
+        },
+        {
+            name: "Sound of Colours",
+            logo: require("./assets/images/mtsLogo.png"),
+            link: 'https://oskarsounds.ro',
+            subHeader: "Oskar",
+            duration: "January 2019 - April 2019",
+            desc: "",
+            descBullets: [
+                "Integrated Web App with Spotify API",
+                "Used audio analysis data to create real-time animation.",
+                "Deployed Single Page Application with Node.js, MongoDB, and Docker",
+                "Implemented responsive web design.",
+                "Created share and print functionality.",
+            ]
+        },
+        {
+            name: "Mind Treat Studios Website",
+            logo: require("./assets/images/mtsLogo.png"),
+            link: 'https://m75.ro',
+            subHeader: "Mind Treat Studios",
+            duration: "November 2018 - December 2018",
+            desc: "",
+            descBullets: [
+                "Created modular web application for MTS studio.",
+                "Implemented swipe/scroll gesture in Phaser3",
+                "Created an import module for adding new page levels.",
+            ]
+        },
+        {
+            name: "Marsupius",
+            logo: require("./assets/images/mtsLogo.png"),
+            link: '',
+            subHeader: "Mind Treat Studios",
+            duration: "October 2018 - November 2018",
+            desc: "",
+            descBullets: [
+                "Debugged and completed VR project based on Vuforia and Unity3D.",
+                "Developed Android version of the application.",
+                "Improved Vuforia target detection."
+            ]
+        }
+    ]
 };
 
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
 
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    title: emoji("Certifications 🏆 "),
+    subtitle: "",
 
-  achievementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
+    achievementsCards: [
+        {
+            title: "Google Associate Android Developer",
+            subtitle: "The Associate Android Developer Certification is a performance-based exam where developers write real apps to show their skills.",
+            image: require("./assets/images/androidDeveloperBadge.png"),
+            footerLink: [
+                {
+                    name: "Certification",
+                    url: "https://www.credential.net/3huwgcjl?key=2ad2328f2cb19a163c9ebe1cba7e3fa7a0e830b8090c220a593044fc996306c0"
+                },
+            ]
+        },
+        {
+            title: "Full Stack Web Developer",
+            subtitle: "Learn to design and develop powerful modern web applications that form the foundation for the apps, websites, and systems that people and businesses use every day.",
+            image: require("./assets/images/udacityLogo.png"),
+            footerLink: [{
+                name: "Certification",
+                url: "https://confirm.udacity.com/VC3GF94F"
+            }]
+        },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-      ]
-    }
-  ]
-};
-
-// Blogs Section
-
-const blogSection = {
-
-  title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ]
-};
-
-// Talks Sections
-
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ]
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+        {
+            title: "JavaScript Algorithms and Data Structures",
+            subtitle: "JavaScript Algorithms and Data Structures will teach you basic JavaScript in a series of challenges. It will teach you how to assign variables, arrays, create functions, and some of the various loop types used in JavaScript. ",
+            image: require("./assets/images/freeCodeCampLogo.jpeg"),
+            footerLink: [
+                {
+                    name: "Certification",
+                    url: "https://www.freecodecamp.org/certification/claudiubogdan/javascript-algorithms-and-data-structures"
+                },
+            ]
+        }
+    ]
 };
 
 const contactInfo = {
@@ -314,4 +440,17 @@ const twitterDetails = {
   userName : "twitter"//Replace "twitter" with your twitter username without @
 
 };
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export {
+    greeting,
+    socialMediaLinks,
+    skillsSection,
+    educationInfo,
+    techStack,
+    workExperiences,
+    openSource,
+    bigProjects,
+    achievementSection,
+    contactInfo,
+    twitterDetails,
+    projects
+};

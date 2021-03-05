@@ -15,18 +15,18 @@ export default function EducationCard({ school }) {
   return (
     <div>
       <Fade left duration={1000}>
-        <div className="education-card">
+        <div className="project-card">
           <div className="education-card-left">
             <img
               crossOrigin={"anonymous"}
               ref={imgRef}
-              className="education-roundedimg"
+              className="project-roundedimg"
               src={school.logo}
               alt={school.schoolName}
             />
           </div>
-          <div className="education-card-right">
-            <h5 className="education-text-school">{school.schoolName}</h5>
+          <div className="project-card-right">
+            <h5 className="project-text-school">{school.schoolName}</h5>
 
             <div className="education-text-details">
               <h5
@@ -45,8 +45,8 @@ export default function EducationCard({ school }) {
               >
                 {school.duration}
               </p>
-              <p className="education-text-desc">{school.desc}</p>
-              <div className="education-text-bullets">
+              <p className="project-text-desc">{school.desc}</p>
+              <div className="project-text-bullets">
                 <ul>
                   <GetDescBullets descBullets={school.descBullets} />
                 </ul>
@@ -56,7 +56,7 @@ export default function EducationCard({ school }) {
         </div>
       </Fade>
       <Slide left duration={2000}>
-        <div className="education-card-border"></div>
+        <div className="project-card-border"></div>
       </Slide>
     </div>
   );
