@@ -39,7 +39,7 @@ export default class Main extends Component {
               <Header/>
               <Greeting/>
               <Skills/>
-              <StackProgress/>
+              {/*<StackProgress/>*/}
               <GitHubProjects/>
               <WorkExperience/>
               <Projects/>

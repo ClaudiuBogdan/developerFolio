@@ -4,6 +4,10 @@
 
 import emoji from "react-easy-emoji";
 
+const ilustration = {
+    animated: true
+}
+
 const greeting = {
     /* Your Summary And Greeting Section */
     username: "Claudiu C. Bogdan",
@@ -429,8 +433,8 @@ const achievementSection = {
 const contactInfo = {
     title: emoji("Contact Me ☎️"),
     subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-    // number: "+92-3243454077",
-    email_address: "claudiu.engineer@gmail.com"
+    number: "+40-738334197",
+    email_address: "claudiu.engineer@pm.me"
 };
 
 //Twitter Section
@@ -441,6 +445,7 @@ const twitterDetails = {
 
 };
 export {
+    ilustration,
     greeting,
     socialMediaLinks,
     skillsSection,
