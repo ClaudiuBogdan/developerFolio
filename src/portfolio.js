@@ -433,8 +433,8 @@ const achievementSection = {
 const contactInfo = {
     title: emoji("Contact Me ☎️"),
     subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-    number: "+40-738334197",
-    email_address: "claudiu.engineer@pm.me"
+    number: "+44-20-3290-7140",
+    email_address: "claudiu.bogdan@devostack.com"
 };
 
 //Twitter Section
