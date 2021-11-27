@@ -1,11 +1,13 @@
 import React, { useContext } from "react";
+import { Fade } from "react-reveal";
 import "./Contact.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {contactInfo, ilustration as illustration} from "../../portfolio";
-import { Fade } from "react-reveal";
+import {contactInfo, illustration} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import email from "../../assets/lottie/contact.json";
+import ContactMailDark from "../../assets/images/contactMailDark.svg"
+import ContactMail from "../../assets/images/contactMail.webp"
 
 export default function Contact() {
   const { isDark } = useContext(StyleContext);
@@ -52,9 +54,7 @@ export default function Contact() {
             ) : (
                 <img
                     alt="Claudiu Working"
-                    src={require(`../../assets/images/${
-                        isDark ? "contactMailDark.svg" : "contactMail.webp"
-                    }`)}/>
+                    src={isDark ? ContactMailDark : ContactMail}/>
             )}
           </div>
         </div>

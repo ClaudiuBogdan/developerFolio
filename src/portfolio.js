@@ -1,10 +1,15 @@
-﻿/*Change this file to get your personal Portfolio */
+﻿import emoji from "react-easy-emoji";
+import UniSevillaLogo from "./assets/images/uniSevillaLogo.jpg"
+import UdacityLogo from "./assets/images/udacityLogo.png"
+import UnicreditLogo from "./assets/images/unicreditLogo.jpeg"
+import MtsLogo from "./assets/images/mtsLogo.png"
+import PersidiusLogo from "./assets/images/persidiusLogo.jpg"
+import SaayaHealthLogo from "./assets/images/saayaHealthLogo.webp"
+import NextuLogo from "./assets/images/nextuLogo.webp"
+import AndroidDeveloperBadge from "./assets/images/androidDeveloperBadge.png"
+import FreeCodeCampLogo from "./assets/images/freeCodeCampLogo.jpeg"
 
-// Your Summary And Greeting Section
-
-import emoji from "react-easy-emoji";
-
-const ilustration = {
+const illustration = {
     animated: true
 }
 
@@ -101,7 +106,7 @@ const educationInfo = {
   schools: [
       {
           schoolName: "Universidad De Sevilla",
-          logo: require("./assets/images/uniSevillaLogo.jpg"),
+          logo: UniSevillaLogo,
           subHeader: "Aerospace Engineering Degree",
           duration: "September 2012 - April 2016 (not graduated)",
           desc: "",
@@ -114,7 +119,7 @@ const educationInfo = {
       },
       {
           schoolName: "Udacity Nanodegree",
-          logo: require("./assets/images/udacityLogo.png"),
+          logo: UdacityLogo,
           subHeader: "Associate Android Developer",
           duration: "January 2017 - December 2017",
           desc: "",
@@ -157,7 +162,7 @@ const workExperiences = {
       {
           role: "Software Engineer",
           company: "UniCredit Services",
-          companylogo: require("./assets/images/unicreditLogo.jpeg"),
+          companylogo: UnicreditLogo,
           date: "April 2019 – September 2019",
           desc: "Developed and maintained scalable applications used in multiple EU countries to calculate the different metrics (AIRB, LGD, EAD, etc) used by UniCredit to offer its financial products (loans, mortgages, etc).",
           descBullets: [
@@ -171,7 +176,7 @@ const workExperiences = {
       {
           role: "Chief Technology Officer ",
           company: "Mind Treat Studios",
-          companylogo: require("./assets/images/mtsLogo.png"),
+          companylogo: MtsLogo,
           date: "July 2018 – May 2020",
           desc: "I have developed most of the studio creative projects, from mobile application, games, web applications, up to electronic circuits and projection mapping. I've also conducted the technical interview for software developers.",
           descBullets: [
@@ -185,7 +190,7 @@ const workExperiences = {
       {
           role: "Senior Software Engineer",
           company: "Persidius Systems",
-          companylogo: require("./assets/images/persidiusLogo.jpg"),
+          companylogo: PersidiusLogo,
           date: "May 2020 – January 2021",
           desc: "As part of the core development team, I contributed to the system architecture, design, planning, and implementation. I have also been involved in DevOps to deploy and scale different services in Kubernetes cluster",
           descBullets: [
@@ -220,11 +225,11 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
       {
-          image: require("./assets/images/saayaHealthLogo.webp"),
+          image: SaayaHealthLogo,
           link: "http://saayahealth.com/"
       },
       {
-          image: require("./assets/images/nextuLogo.webp"),
+          image: NextuLogo,
           link: "http://nextu.se/"
       }
   ]
@@ -236,7 +241,7 @@ const projects = {
     projects: [
         {
             name: "EOS Server/Front-End",
-            logo: require("./assets/images/persidiusLogo.jpg"),
+            logo: PersidiusLogo,
             link: 'https://app.myara.ro/',
             subHeader: "Persidius Systems",
             duration: "May 2020 - January 2021",
@@ -259,7 +264,7 @@ const projects = {
         },
         {
             name: "Global Pricing Tool",
-            logo: require("./assets/images/unicreditLogo.jpeg"),
+            logo: UnicreditLogo,
             link: 'https://www.gtb.unicredit.eu/global-transaction-banking/products-solutions/europeangate',
             subHeader: "Unicredit",
             duration: "April 2019 - September 2019",
@@ -274,7 +279,7 @@ const projects = {
         },
         {
             name: "PortalDent",
-            logo: require("./assets/images/mtsLogo.png"),
+            logo: MtsLogo,
             link: 'https://portaldent.ro/',
             subHeader: "Dr Leahu",
             duration: "January 2020 - April 2020",
@@ -293,7 +298,7 @@ const projects = {
         },
         {
             name: "Carrefour Aniversary 20",
-            logo: require("./assets/images/mtsLogo.png"),
+            logo: MtsLogo,
             link: 'https://www.iqads.ro/articol/47023/carrefour-romania-si-mind-treat-studios-stabilesc-recordul-pentru-cea-mai-mare',
             subHeader: "Carrefour",
             duration: "May 2019 - July 2019",
@@ -315,7 +320,7 @@ const projects = {
         },
         {
             name: "Yummy Galaxy",
-            logo: require("./assets/images/mtsLogo.png"),
+            logo: MtsLogo,
             link: 'https://yummy.asdl.ro/',
             subHeader: "Dr Leahu",
             duration: "November 2019 - April 2020",
@@ -330,7 +335,7 @@ const projects = {
         },
         {
             name: "AccessTaxi",
-            logo: require("./assets/images/mtsLogo.png"),
+            logo: MtsLogo,
             link: 'https://www.facebook.com/ACCES-TAXI-1161232880652888',
             subHeader: "TransContinental",
             duration: "July 2018 - December 2018",
@@ -345,7 +350,7 @@ const projects = {
         },
         {
             name: "Sound of Colours",
-            logo: require("./assets/images/mtsLogo.png"),
+            logo: MtsLogo,
             link: 'https://oskarsounds.ro',
             subHeader: "Oskar",
             duration: "January 2019 - April 2019",
@@ -360,7 +365,7 @@ const projects = {
         },
         {
             name: "Mind Treat Studios Website",
-            logo: require("./assets/images/mtsLogo.png"),
+            logo: MtsLogo,
             link: 'https://m75.ro',
             subHeader: "Mind Treat Studios",
             duration: "November 2018 - December 2018",
@@ -373,7 +378,7 @@ const projects = {
         },
         {
             name: "Marsupius",
-            logo: require("./assets/images/mtsLogo.png"),
+            logo: MtsLogo,
             link: '',
             subHeader: "Mind Treat Studios",
             duration: "October 2018 - November 2018",
@@ -398,7 +403,7 @@ const achievementSection = {
         {
             title: "Google Associate Android Developer",
             subtitle: "The Associate Android Developer Certification is a performance-based exam where developers write real apps to show their skills.",
-            image: require("./assets/images/androidDeveloperBadge.png"),
+            image: AndroidDeveloperBadge,
             footerLink: [
                 {
                     name: "Certification",
@@ -409,7 +414,7 @@ const achievementSection = {
         {
             title: "Full Stack Web Developer",
             subtitle: "Learn to design and develop powerful modern web applications that form the foundation for the apps, websites, and systems that people and businesses use every day.",
-            image: require("./assets/images/udacityLogo.png"),
+            image: UdacityLogo,
             footerLink: [{
                 name: "Certification",
                 url: "https://confirm.udacity.com/VC3GF94F"
@@ -419,7 +424,7 @@ const achievementSection = {
         {
             title: "JavaScript Algorithms and Data Structures",
             subtitle: "JavaScript Algorithms and Data Structures will teach you basic JavaScript in a series of challenges. It will teach you how to assign variables, arrays, create functions, and some of the various loop types used in JavaScript. ",
-            image: require("./assets/images/freeCodeCampLogo.jpeg"),
+            image: FreeCodeCampLogo,
             footerLink: [
                 {
                     name: "Certification",
@@ -445,7 +450,7 @@ const twitterDetails = {
 
 };
 export {
-    ilustration,
+    illustration,
     greeting,
     socialMediaLinks,
     skillsSection,

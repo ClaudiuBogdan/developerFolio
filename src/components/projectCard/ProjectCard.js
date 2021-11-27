@@ -17,7 +17,7 @@ export default function ProjectCard({project}) {
             <Fade left duration={1000}>
                 <div className="project-card">
                     <div className="project-card-left">
-                        <a href={project.link} target='_blank'>
+                        <a href={project.link} target='_blank' rel="noopener noreferrer">
                             <img
                                 crossOrigin={"anonymous"}
                                 ref={imgRef}
@@ -30,7 +30,8 @@ export default function ProjectCard({project}) {
                     </div>
                     <div className="project-card-right">
                         <a href={project.link}
-                           target="_blank">
+                           target="_blank" 
+                           rel="noopener noreferrer">
 
                             <h5 className="project-text-header">
                                 {project.name}

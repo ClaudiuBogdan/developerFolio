@@ -2,10 +2,8 @@ import React, {Component} from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
-import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
 import GitHubProjects from "./GitHubProjects/GitHubProjects";
-import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
 import Footer from "../components/footer/Footer";
 import Education from "./education/Education";
@@ -14,6 +12,7 @@ import {StyleProvider} from "../contexts/StyleContext";
 import "./Main.css";
 import Contact from "./contact/Contact";
 import Projects from "./projects/Projects";
+import { TopProjects } from "./topProjects/TopProjects";
 
 export default class Main extends Component {
   constructor(props) {
@@ -39,11 +38,10 @@ export default class Main extends Component {
               <Header/>
               <Greeting/>
               <Skills/>
-              {/*<StackProgress/>*/}
+              <TopProjects/>
               <GitHubProjects/>
               <WorkExperience/>
               <Projects/>
-              {/*<StartupProject/>*/}
               <Education/>
               <Achievement/>
               <Contact/>

@@ -3,15 +3,15 @@ import "./Greeting.css";
 import landingPerson from "../../assets/lottie/workingMan"
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import {greeting, ilustration as illustration} from "../../portfolio";
+import {greeting, illustration} from "../../portfolio";
 import {Fade} from "react-reveal";
-import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+import ManOnTable from "../../assets/images/manOnTable.svg"
 
 export default function Greeting() {
     const {isDark} = useContext(StyleContext);
-    const animationEnabled = true; //illustration.animated
+    const animationEnabled = illustration.animated
     return (
         <Fade bottom duration={1000} distance="40px">
             <div className="greet-main" id="greeting">
@@ -50,7 +50,7 @@ export default function Greeting() {
                         ) : (
                             <img
                                 alt="man sitting on table"
-                                src={require("../../assets/images/manOnTable.svg")}/>
+                                src={ManOnTable}/>
                         )}
                     </div>
                 </div>
