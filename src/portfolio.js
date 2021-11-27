@@ -11,8 +11,8 @@ const ilustration = {
 const greeting = {
     /* Your Summary And Greeting Section */
     username: "Claudiu C. Bogdan",
-    title: "Hi all, I'm Claudiu C. Bogdan",
-    subTitle: emoji("A passionate Software Developer 🚀 with experience in building Web and Mobile applications with TypeScript / Reactjs / Nodejs / Android SDK and some other cool libraries and frameworks."),
+    title: "Senior React.js Developer",
+    subTitle: emoji("Experienced software developer willing to take the responsibility of delivering quality software products and services. Team player and eager learner, with experience in delivering a wide range of projects, from web games to enterprise-grade applications. Focused on cost efficiency, reliability, scalability, and maintainability, I am constantly keeping my skills up to date with the best technologies and software development methodologies. Looking for new challenges that can help your company deliver quality software or prototype new products."),
     resumeLink: "https://claudiuconstantinbogdan.me/resume_claudiu_constantin_bogdan.pdf"
 };
 

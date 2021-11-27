@@ -1,6 +1,6 @@
 ﻿import React, {useContext} from "react";
 import "./Greeting.css";
-import landingPerson from "../../assets/lottie/landingPerson"
+import landingPerson from "../../assets/lottie/workingMan"
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import {greeting, ilustration as illustration} from "../../portfolio";
@@ -11,7 +11,7 @@ import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 
 export default function Greeting() {
     const {isDark} = useContext(StyleContext);
-    const animationEnabled = false; //illustration.animated
+    const animationEnabled = true; //illustration.animated
     return (
         <Fade bottom duration={1000} distance="40px">
             <div className="greet-main" id="greeting">
@@ -22,8 +22,7 @@ export default function Greeting() {
                                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
                             >
                                 {" "}
-                                {greeting.title}{" "}
-                                <span className="wave-emoji">{emoji("👋")}</span>
+                                {greeting.title}
                             </h1>
                             <p
                                 className={

@@ -1,6 +1,7 @@
 import React, {useContext} from "react";
 import "./Skills.css";
-import codingPerson from "../../assets/lottie/codingPerson"
+import programmingComputer from "../../assets/lottie/programmingComputer"
+import playButton from "../../assets/lottie/playButton"
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import {ilustration as illustration, skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
@@ -13,9 +14,20 @@ export default function Skills() {
         <div className={isDark ? "dark-mode main" : "main"} id="skills">
             <div className="skills-main-div">
                 <Fade left duration={1000}>
-                    <div className="skills-image-div">
+                    <div className="skills-image-div" >
                         {illustration.animated ? (
-                            <DisplayLottie animationData={codingPerson} />
+                            <>
+                                <div className='skills-data-visualization'>
+                                    <DisplayLottie  animationData={programmingComputer} />
+                                </div>
+                                {/* <div
+                                    className='skills-play-button'>
+                                    <DisplayLottie 
+                                        animationData={playButton}
+                                        onClick={() => alert('Play videos')} />
+                                </div> */}
+                            </>
+                            
                         ) : (
                             <img
                                 alt="Man Working"
