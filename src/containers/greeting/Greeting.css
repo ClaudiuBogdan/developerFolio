@@ -1,17 +1,11 @@
 .main {
   width: 90%;
   padding: 20px 10px;
-  margin-top: 4rem;
 }
 .greet-main {
   width: 90%;
   padding: 20px 10px;
   margin-top: 2rem;
-}
-
-.gretting-main {
-  width: 90%;
-  padding: 20px 10px;
 }
 
 .subTitle {
@@ -28,13 +22,29 @@
 }
 .button-greeting-div {
   display: flex;
-  margin-top: 20px;
+}
+.main-button{
+  margin-top: 0;
+}
+.social-media-div{
+  margin-top: 2rem;
 }
 
-.greeting-text {
-  font-size: 50px;
-  line-height: 1.1;
+.greeting-title {
+  font-size: 1.7rem;
+  line-height: 1.5;
   color: black !important;
+  padding-bottom: 2rem;
+}
+
+.greeting-question {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.greeting-bullet {
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 .greeting-text-p {
@@ -78,15 +88,6 @@
   }
 }
 
-/* Media Query */
-@media (max-width: 1380px) {
-  .greeting-text {
-    font-size: 50px;
-  }
-  .greeting-text-p {
-    font-size: 20px;
-  }
-}
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
@@ -102,5 +103,16 @@
   }
   .greeting-main {
     display: block;
+    margin-top: 0;
+  }
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: 50px;
+  }
+  .greeting-text-p {
+    font-size: 20px;
   }
 }

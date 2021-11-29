@@ -14,7 +14,7 @@ export default class DisplayLottie extends Component {
     return (
       <Suspense fallback={<Loading />}>
         {/* To override default onClick pause by Lottie */}
-        <div onClick={this.props.onClick ?? "null"}>
+        <div onClick={this.props.onClick ?? 'null'}>
           <Lottie options={defaultOptions} />
         </div>
       </Suspense>

@@ -28,32 +28,26 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .main-layout {
-        padding: 0 5rem;
+    .main-layout{
+        padding: 0 5vw !important;
     }
-
     .headroom {
-        padding: 0 5rem;
+        padding: 0 5vw !important;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .main-layout{
-        padding: 0 15rem !important;
-    }
-    .headroom {
-        padding: 0 15rem !important;
-    }
+
 }
 
 /* Extra Extra large devices (large laptops and desktops, 2400 and up) */
 @media only screen and (min-width: 2400px) {
     .main-layout {
-        padding: 0 15vw;
+        padding: 0 10vw;
     }
 
     .headroom {
-        padding: 0 15vw;
+        padding: 0 10vw;
     }
 }

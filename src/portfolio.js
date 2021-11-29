@@ -16,8 +16,6 @@ const illustration = {
 const greeting = {
     /* Your Summary And Greeting Section */
     username: "Claudiu C. Bogdan",
-    title: "Senior React.js Developer",
-    subTitle: emoji("Experienced software developer willing to take the responsibility of delivering quality software products and services. Team player and eager learner, with experience in delivering a wide range of projects, from web games to enterprise-grade applications. Focused on cost efficiency, reliability, scalability, and maintainability, I am constantly keeping my skills up to date with the best technologies and software development methodologies. Looking for new challenges that can help your company deliver quality software or prototype new products."),
     resumeLink: "https://claudiuconstantinbogdan.me/resume_claudiu_constantin_bogdan.pdf"
 };
 
@@ -37,7 +35,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
     title: "What I do",
-    subTitle: "FULL STACK DEVELOPER WHO WANTS TO SOLVE IMPORTANT PROBLEMS TROUGH THE POWER OF TECHNOLOGY",
+    subTitle: "SCALABLE AND EFFICIENT WEB APPLICATIONS USING REACT.JS AND NODE.JS",
     skills: [
         emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
         emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
@@ -48,6 +46,14 @@ const skillsSection = {
     https://fontawesome.com/icons?d=gallery */
 
     softwareSkills: [
+        {
+            skillName: "ReactJs",
+            fontAwesomeClassname: "fab fa-react"
+        },
+        {
+            skillName: "NodeJs",
+            fontAwesomeClassname: "fab fa-node"
+        },
         {
             skillName: "HTML-5",
             fontAwesomeClassname: "fab fa-html5"
@@ -65,32 +71,12 @@ const skillsSection = {
             fontAwesomeClassname: "fab fa-js"
         },
         {
-            skillName: "ReactJs",
-            fontAwesomeClassname: "fab fa-react"
-        },
-        {
-            skillName: "NodeJs",
-            fontAwesomeClassname: "fab fa-node"
-        },
-        {
-            skillName: "Java",
-            fontAwesomeClassname: "fab fa-java"
-        },
-        {
             skillName: "npm",
             fontAwesomeClassname: "fab fa-npm"
         },
         {
             skillName: "sql-database",
             fontAwesomeClassname: "fas fa-database"
-        },
-        {
-            skillName: "digital ocean",
-            fontAwesomeClassname: "fab fa-digital-ocean"
-        },
-        {
-            skillName: "python",
-            fontAwesomeClassname: "fab fa-python"
         },
         {
             skillName: "docker",

@@ -22,6 +22,11 @@ export const TopProjects = () => {
             static // default false
         >
                 {/* <iframe width="800" height="400"
+                title='1'
+                onBlur={e => {
+                    console.log('Pause video', e)
+                    e.target.contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*')
+                }}
     src="https://www.youtube.com/embed/tgbNymZ7vqY">
     </iframe>
     <iframe width="800" height="400"

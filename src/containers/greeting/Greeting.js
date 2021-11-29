@@ -11,6 +11,28 @@ import ManOnTable from "../../assets/images/manOnTable.svg"
 
 export default function Greeting() {
     const {isDark} = useContext(StyleContext);
+
+    const greetingText = [
+        {
+            title: 'Why me?',
+            items: [
+                <span> I work <strike>hard</strike>  smart to deliver quality software</span>,
+                'I collaborate with the stakeholders to prioritize the tasks that bring value to the project',
+                'I implement optimal solutions to each specific problem',
+                'I have experience in delivering a wide range of projects',
+                'I\'m not afraid of asking questions to understand the scope of my work'
+            ]
+        },
+        {
+            title: 'What am I seeking?',
+            items: [
+                'A company that cares about its product or service',
+                'An agile team that value quality software',
+                'JavaScript/TypeScript projects, preferable React.js or Node.js',
+            ]                 
+        }
+    ]
+
     const animationEnabled = illustration.animated
     return (
         <Fade bottom duration={1000} distance="40px">
@@ -19,21 +41,31 @@ export default function Greeting() {
                     <div className="greeting-text-div">
                         <div>
                             <h1
-                                className={isDark ? "dark-mode greeting-text" : "greeting-text"}
-                            >
-                                {" "}
-                                {greeting.title}
+                                className={isDark ? "dark-mode greeting-title" : "greeting-title"}>
+                                Looking for an experienced developer to deliver quality software, 
+                                be part of your development team and bring your product to the next level?
                             </h1>
-                            <p
-                                className={
-                                    isDark
-                                        ? "dark-mode greeting-text-p"
-                                        : "greeting-text-p subTitle"
-                                }
-                            >
-                                {greeting.subTitle}
-                            </p>
-                            <SocialMedia/>
+                            {greetingText.map((greetingItem, index) => (
+                              <section key={index}>
+                                <h2 className={ isDark
+                                            ? "dark-mode greeting-question"
+                                            : "greeting-question"}>
+                                    {greetingItem.title}
+                                </h2>
+                                <ul>
+                                    {greetingItem.items.map((item, itemIndex) => (
+                                        <li key={itemIndex}
+                                            className={
+                                                isDark
+                                                    ? "dark-mode greeting-bullet"
+                                                    : "greeting-bullet"}>
+                                            {item}
+                                        </li>
+                                    ))}
+                                </ul>
+                              </section>  
+                            ))}
+
                             <div className="button-greeting-div">
                                 <Button text="Contact me" href="#contact"/>
                                 <Button
@@ -42,6 +74,8 @@ export default function Greeting() {
                                     href={greeting.resumeLink}
                                 />
                             </div>
+                            <SocialMedia/>
+                            
                         </div>
                     </div>
                     <div className="greeting-image-div">
